@@ -1,4 +1,5 @@
 alert("Welcome to Wolf Web")
+alert("Tip: For a better experience open a new tab and in search do chrome://quit")
 var x = document.getElementById("Locate");
 document.body.style.cursor = "no-drop"
 function getLocation() {
