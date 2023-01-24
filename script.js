@@ -1,5 +1,6 @@
 alert("Welcome to Wolf Web")
 var x = document.getElementById("Locate");
+document.body.style.cursor = "no-drop"
 function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
