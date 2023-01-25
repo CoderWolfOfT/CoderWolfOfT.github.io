@@ -19,3 +19,8 @@ body{
   padding: 0 30px 0 30px;
   text-shadow: 0 6px 7px -4px rgba(0,0,0,0.2);
 }
+.rainbow{
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+  color: transparent;
+  background-clip: text;
+}
