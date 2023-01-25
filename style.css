@@ -1,3 +1,21 @@
 body{
   background: linear-gradient(to right,red,teal)
 }
+#sidebar{
+  grid-area: sidebar;
+  height: 100px;
+  background-color: #21232d;
+  color: #9799ab;
+  overflow-y: auto;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.header{
+  grid-area: header;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  text-shadow: 0 6px 7px -4px rgba(0,0,0,0.2);
+}
